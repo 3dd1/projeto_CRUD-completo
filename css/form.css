@@ -1,0 +1,54 @@
+body{
+    background-color: #0c0636;
+    color: antiquewhite;
+}
+form{
+    width: 30%;
+    margin: auto;
+}
+input{
+    display: block;
+    padding: 8px;
+    margin: auto;
+    width: 60%;
+    
+}
+h1{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+fieldset{
+    border-radius: 10px;
+}
+label{
+    font-size: 20px;
+}
+.voltar a{
+    text-decoration: none;
+    color: black;
+}
+.voltar{
+    background-color: #059b9a;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+}
+.voltar a{
+    text-decoration: none;
+    color: black;
+}
+.div_botao{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+#submit{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+}
+
