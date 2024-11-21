@@ -28,7 +28,6 @@ $result = mysqli_query($conexao, "SELECT * FROM tarefas");
                 <th>Ações</th>
             </tr>
         <?php
-
         while ($row = mysqli_fetch_assoc($result)) {
             echo "<tr>";
             echo "<td class='central'>" . $row['id'] . "</td>";
@@ -41,7 +40,6 @@ $result = mysqli_query($conexao, "SELECT * FROM tarefas");
             echo "</tr>";
         }
         ?>
-
         </table>
     </div>
 </body>

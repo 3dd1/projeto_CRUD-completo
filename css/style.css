@@ -4,14 +4,13 @@ body{
 }
 th,td{
     border: 2px antiquewhite solid;
-    width: 200px;
+    width: 300px;
 }
 h1{
     text-align: center;
     padding-bottom: 40px;
 }
 .div_tabela{
-    
     display: flex;
     justify-content: center;
 }
@@ -20,18 +19,10 @@ h1{
     justify-content: center;
     padding-bottom: 20px;
 }
-.acoes{
+ .acoes{   /* usado para ajeitar o botao do ações. */
     display: flex;
     justify-content: center;
     gap: 8px;
-}
-.sair{
-    background-color: rgb(201, 21, 21);
-    border: none;
-}
-.sair a{
-    text-decoration: none;
-    color: aliceblue;
 }
 .adicionar{
     background-color: #059b9a;
@@ -51,4 +42,7 @@ h1{
 .edit a{
     text-decoration: none;
     color: black;
+}
+.delete{
+    color: red;
 }
